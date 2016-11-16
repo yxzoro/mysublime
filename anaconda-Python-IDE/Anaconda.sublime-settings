@@ -6,7 +6,7 @@
         Anaconda Tooltip Options
 
         Sublime Text 3 supports tooltips since build 3070, if anaconda
-        runs in a ST3 instalation equal or newer than build 3070 it can
+        runs in a ST3 instalation equal or newer than build 3070 it 
         be configured to show tooltips for documentation and signatures
 
         The options below sets how the tooltip is shown. Set the theme
@@ -306,7 +306,7 @@
     "use_pylint": false,
 
     // Set this to false to turn pep8 checking off completely
-    "pep8": true,
+    "pep8": false,
 
     /*
         If setted, the given file will be used as configuration for pep8
