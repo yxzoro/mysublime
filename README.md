@@ -1,4 +1,4 @@
-# sublime as Python IDE
-```#
-put this in your sublime `Package Dir + change`'Theme-Brogrammer' to 'Theme - Brogrammer'
+# sublime Python IDE
+```
+just put this in your sublime's `Package Dir`.
 ```
