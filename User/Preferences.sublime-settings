@@ -3,5 +3,6 @@
 	"font_size": 14,
 	"highlight_line": true,
 	"theme": "Brogrammer.sublime-theme",
-	"update_check": false
+	"update_check": false,
+	"default_line_ending": "unix"
 }
