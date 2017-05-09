@@ -1,8 +1,23 @@
 {
 	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
-	"font_size": 14,
+	"default_line_ending": "unix",
+	"font_size": 18,
 	"highlight_line": true,
+	"rulers":[120],
 	"theme": "Brogrammer.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"update_check": false,
-	"default_line_ending": "unix"
+	"word_wrap": false,
+	"wrap_width": 120,
+	"save_on_focus_lost": true,
+	"auto_complete_triggers": [ 
+		{"selector": "source.python - string - comment - constant.numeric",
+		 "characters": "."
+		}
+	],
+	"drag_text": false,
+	"highlight_modified_tabs": true,
+    "bold_folder_labels": true,
+    "show_encoding": true,
+    "show_line_endings": true,
 }
