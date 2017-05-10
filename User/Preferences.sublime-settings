@@ -1,23 +1,28 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python - string - comment - constant.numeric"
+		}
+	],
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 18,
+	"drag_text": false,
+	"font_size": 16,
 	"highlight_line": true,
-	"rulers":[120],
+	"highlight_modified_tabs": true,
+	"rulers":
+	[
+		120
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"theme": "Brogrammer.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
 	"word_wrap": false,
-	"wrap_width": 120,
-	"save_on_focus_lost": true,
-	"auto_complete_triggers": [ 
-		{"selector": "source.python - string - comment - constant.numeric",
-		 "characters": "."
-		}
-	],
-	"drag_text": false,
-	"highlight_modified_tabs": true,
-    "bold_folder_labels": true,
-    "show_encoding": true,
-    "show_line_endings": true,
+	"wrap_width": 120
 }
