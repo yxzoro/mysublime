@@ -7,11 +7,11 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>YX</string>
+	<string>YX3</string>
 	<key>author</key>
 	<string>YX</string>
 	<key>semanticClass</key>
-	<string>theme.dark.yx</string>
+	<string>theme.dark.yx2</string>
 	<key>uuid</key>
 	<string>13E579BF-40AB-42E2-9EAB-0AD3EDD88532</string>
 	<key>colorSpaceName</key>
@@ -22,7 +22,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#C9C7C7</string>
 				<key>background</key>
 				<string>#1a1a1a</string>
 				<key>caret</key>
@@ -57,7 +57,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FCFCFC</string>
+				<string>#606060</string>
 			</dict>
 		</dict>
 		<dict>
@@ -90,7 +90,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6C71C4</string>
+				<string>#D69FD1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E05EC2</string>
+				<string>#E68AB2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +171,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E74C3C</string>
+				<string>#e74c3c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -182,7 +182,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3498DB</string>
+				<string>#3498db</string>
 			</dict>
 		</dict>
 		<dict>
@@ -239,7 +239,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F1C40F</string>
+				<string>#f1c40f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -250,7 +250,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3498DB</string>
+				<string>#3498db</string>
 			</dict>
 		</dict>
 		<dict>
@@ -298,7 +298,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F1C40F</string>
+				<string>#f1c40f</string>
 			</dict>
 		</dict>
 	</array>
