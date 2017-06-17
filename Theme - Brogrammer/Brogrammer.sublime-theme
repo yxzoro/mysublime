@@ -529,8 +529,8 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [170,170,170],
-        "font.bold": false,
+        "color": [0,255,153], 
+        "font.bold": true,
         "shadow_color": [0,0,0],
         "shadow_offset": [1,1]
     },
@@ -543,10 +543,10 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        //"font.size": 22,
+        "font.size": 24,          //this is sidebar font size !
         //"font.bold": false,
-        //"font_face": "",
-        "color": [170,170,170],
+        // "font_face": "",
+        "color": [67, 205, 128],
         "shadow_color": [0,0,0],
         "shadow_offset": [1,1]
     },
@@ -554,7 +554,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [170,170,170],
+        "color": [51, 153, 255],
         "font.bold": false
     },
     {
