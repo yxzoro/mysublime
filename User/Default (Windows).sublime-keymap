@@ -10,6 +10,9 @@
 { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
 { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+// { "keys": ["ctrl+left"], "command": "scroll_?", "args": {"amount": 1.0 } },
+// { "keys": ["ctrl+right"], "command": "scroll_?", "args": {"amount": -1.0 } },
+
 { "keys": ["ctrl+a"], "command": "select_all" },
 { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
 { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
@@ -36,7 +39,10 @@
 { "keys": ["ctrl+shift+["], "command": "fold" },
 { "keys": ["ctrl+shift+]"], "command": "unfold" },
 
-{"keys": ["ctrl+shift+2"],"command": "set_layout","args":{"cols": [0.0, 1.0],"rows": [0.0, 0.5, 1.0],"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]}},
-{"keys": ["ctrl+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } }, 
-{"keys": ["ctrl+shift+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
+{"keys": ["ctrl+shift+left"],"command": "set_layout","args":{"cols": [0.0, 1.0],"rows": [0.0, 0.5, 1.0],"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]}},
+{"keys": ["ctrl+shift+."], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } }, 
+{"keys": ["ctrl+shift+right"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
+// a key --> a command --> a function 
+// just like emacs lisp: all keys are commands, all commands are functions.
+// so, define any your self-like key/command/function is possible.
 ]
