@@ -8,6 +8,7 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Brogrammer/YX2.tmTheme",
+	// "color_scheme": "Packages/greentheme/Darcy.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"font_size": 12,  //use 18/12
