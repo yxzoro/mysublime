@@ -55,7 +55,7 @@
 
     //  1 -> [ Theirs | Mine ]
     //       [    Merged     ]
-    "three_way_layout": 0,
+    "three_way_layout": 1,
 
     //Percentage height for [ Merged ] pane. Applicable only when `three_way_layout` = 1
     "three_way_merged_height": 50,
