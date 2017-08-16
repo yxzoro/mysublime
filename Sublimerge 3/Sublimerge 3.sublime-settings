@@ -3,6 +3,22 @@
  IS UPGRADED. TO MAKE CHANGES PLEASE COPY THE ENTRIES YOU WANT TO MODIFY TO `Settings - User` FILE AND EDIT THERE.
 */
 
+/* ---------------------------git config to use sublimerge as diff & merge tool-----------------------------------------
+ [merge]
+ tool = sublimerge
+
+ [mergetool "sublimerge"]
+ cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+ trustExitCode = false
+
+ [diff]
+ tool = sublimerge
+
+ [difftool "sublimerge"]
+ cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
+ ---------------------------------------------------------------------------------------------------------------------
+*/
+
 {
     //GENERAL /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -145,14 +161,14 @@
     "view": {
         //set to true if you want to display line numbers (they may not be corresponding
         //with original file lines due to expanded diff regions)
-        "line_numbers": false,
+        "line_numbers": true,
 
         //set to true if you want lines to wrap on words (this is not recommended due to
         //readability reasons)
         "word_wrap": false,
 
         //set to false if you don't want to highlight corresponding lines
-        "highlight_line": false,
+        "highlight_line": true,
 
         //set to 'all' to display white space characters always, 'selection' to display
         //only when selection is applied
