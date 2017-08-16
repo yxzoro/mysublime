@@ -8,10 +8,9 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Brogrammer/YX2.tmTheme",
-	// "color_scheme": "Packages/greentheme/Darcy.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
-	"font_size": 12,  //use 18/12
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"rulers":
@@ -21,10 +20,10 @@
 	"save_on_focus_lost": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"tab_size": 4,
 	"theme": "Brogrammer.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
 	"word_wrap": false,
-	"wrap_width": 120,
-	"tab_size": 4,
+	"wrap_width": 120
 }
