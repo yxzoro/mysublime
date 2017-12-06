@@ -1,4 +1,5 @@
 [
+{ "keys": ["ctrl+q"], "command": "ace_jump_char" },  
 { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
 { "keys": ["ctrl+shift+n"], "command": "new_window" },
 { "keys": ["ctrl+o"], "command": "prompt_open_file" },
