@@ -26,11 +26,12 @@
 	"update_check": false,
 	"word_wrap": false,
 	"wrap_width": 120,
-
-	// Boxy theme setting:
+	
+	// ----------------------------------------------------------------------------------------
+	// if you want to use Boxy theme, just comment theme/color_scheme above & uncomment below:
+		
 	// "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
 	// "theme": "Boxy Solarized Light.sublime-theme",
-
 	// "theme_accent_green": true,
 	// "theme_bar": true,
 	// "theme_bar_colored": true,
@@ -50,4 +51,6 @@
 	// "theme_tab_selected_transparent": true,
 	// "theme_tab_selected_underlined": true,
 	// "theme_tab_size_lg": true
+
 }
+
