@@ -473,9 +473,9 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [0,0,0],
+        "layer0.tint": [46, 188, 103],
         "layer0.opacity": 1,
-        "content_margin": [15, 10]
+        "content_margin": [15, 6],  // status bar height
     },
     // Status bar button
     {
@@ -486,7 +486,8 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [170,170,170],
+        "font.size": 16,
+        "color": [0,0,0],
         "shadow_offset": [0,0]
     },
 
