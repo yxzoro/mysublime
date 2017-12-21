@@ -41,10 +41,14 @@
 {"keys": ["ctrl+shift+2"],"command": "set_layout","args":{"cols": [0.0, 1.0],"rows": [0.0, 0.5, 1.0],"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]}},
 {"keys": ["ctrl+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } }, 
 {"keys": ["ctrl+shift+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
-{"keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 
-// macro, it's the most bitchen function !! :
+// -------macro-------------------------------------------------------------------------------------------------------------  
+// macro, it's the most bitchen editor function !! 
+// for example, you can first save your macro, then map a key to it !! 
+// it's just like you can create all kinds of your own editor functions immediately...so cool !!  
 {"keys": ["alt+q"], "command": "toggle_record_macro" },
-{"keys": ["alt+w"], "command": "run_macro" },
-
+{"keys": ["alt+w"], "command": "run_macro" }, 
+{"keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+// -------------------------------------------------------------------------------------------------------------------------
+  
 ]
