@@ -7,7 +7,6 @@
 		}
 	],
 	"bold_folder_labels": true,
-//	"color_scheme": "Packages/Theme - Brogrammer/YX2.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"font_size": 18,
@@ -21,36 +20,40 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
-//	"theme": "Brogrammer.sublime-theme",
+	"theme": "Brogrammer.sublime-theme",
+	"color_scheme": "Packages/Theme - Brogrammer/YX2.tmTheme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
 	"word_wrap": false,
 	"wrap_width": 120,
 	
-	// ----------------------------------------------------------------------------------------
-	// if you want to use Boxy theme, just comment theme/color_scheme above & uncomment below:
-		
-	 "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
-	 "theme": "Boxy Solarized Light.sublime-theme",
-	 "theme_accent_green": true,
-	 "theme_bar": true,
-	 "theme_bar_colored": true,
-	 "theme_bar_shadow_hidden": true,
-	 "theme_button_rounded": true,
-	 "theme_icons_atomized": true,
-	 "theme_quick_panel_size_md": true,
-	 "theme_scrollbar_rounded": true,
-	 "theme_sidebar_close_always_visible": true,
-	 "theme_sidebar_folder_materialized": true,
-	 "theme_sidebar_highlight_selected_text_only": true,
-	 "theme_sidebar_highlight_text_only": true,
-	 "theme_sidebar_indent_top_level_disabled": true,
-	 "theme_statusbar_size_md": true,
-	 "theme_tab_highlight_text_only": true,
-	 "theme_tab_line_size_lg": true,
-	 "theme_tab_selected_transparent": true,
-	 "theme_tab_selected_underlined": true,
-	 "theme_tab_size_lg": true
-	// ----------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------
+// this is "Boxy Solarized Dark/Light Theme".		
+// if you want to use "Boxy theme", comment "Brogrammer theme/color_scheme" above & uncomment below:	
+
+//       // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
+//       // "theme": "Boxy Solarized Dark.sublime-theme",
+// 	 "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+// 	 "theme": "Boxy Solarized Light.sublime-theme",
+// 	 "theme_accent_green": true,
+// 	 "theme_bar": true,
+// 	 "theme_bar_colored": true,
+// 	 "theme_bar_shadow_hidden": true,
+// 	 "theme_button_rounded": true,
+// 	 "theme_icons_atomized": true,
+// 	 "theme_quick_panel_size_md": true,
+// 	 "theme_scrollbar_rounded": true,
+// 	 "theme_sidebar_close_always_visible": true,
+// 	 "theme_sidebar_folder_materialized": true,
+// 	 "theme_sidebar_highlight_selected_text_only": true,
+// 	 "theme_sidebar_highlight_text_only": true,
+// 	 "theme_sidebar_indent_top_level_disabled": true,
+// 	 "theme_statusbar_size_md": true,
+// 	 "theme_tab_highlight_text_only": true,
+// 	 "theme_tab_line_size_lg": true,
+// 	 "theme_tab_selected_transparent": true,
+// 	 "theme_tab_selected_underlined": true,
+// 	 "theme_tab_size_lg": true
+// --------------------------------------------------------------------------------------------------
 }
 
