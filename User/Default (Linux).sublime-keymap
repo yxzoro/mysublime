@@ -26,7 +26,11 @@
 { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+
+// "alt+," in sublime can goto definition of any code, so bitchen !!
+// plugin's another goto definition is "alt+."  
 { "keys": ["alt+,"], "command": "goto_definition" },
+
 { "keys": ["alt+-"], "command": "jump_back" },
 { "keys": ["alt+="], "command": "jump_forward" },
 { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
