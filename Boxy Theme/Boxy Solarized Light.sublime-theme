@@ -11711,7 +11711,10 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "font.bold": false
+    "font.bold": false,
+    "font.size": 12,                                   //status bar font size
+    // "color": [222, 240, 251]                        //status bar font color
+    "color": [0,0,0]
   },
   
   // Status Bar Container
@@ -11792,9 +11795,8 @@
   
   {
     "class": "status_bar",
-    // "layer0.tint": [235, 229, 211]                 //----------------------------------
-    // "layer0.tint": [199, 237, 204]                 // this control status bar bg color
-    "layer0.tint": [220, 226, 241]                    //----------------------------------
+    // "layer0.tint": [220, 226, 241]       // this control status bar bg color
+    "layer0.tint": [46, 188, 103],
   },
   
   {
