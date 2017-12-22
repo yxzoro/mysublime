@@ -473,7 +473,8 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [46, 188, 103],
+//        "layer0.tint": [46, 188, 103],   // green
+		"layer0.tint": [82, 139, 255],     // blue
         "layer0.opacity": 1,
         "content_margin": [15, 6],  // status bar height
     },
