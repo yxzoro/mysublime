@@ -1,0 +1,414 @@
+{
+  "main": {
+    "items": [
+      [
+        "Builds...", "Build system"
+      ], [
+        "Create...", "Create a new class or package"
+      ], [
+        "Operations...", "Do a Java operation"
+      ], [
+        "Project Settings...", "Adjust per-project settings"
+      ], [
+        "Javatar Settings...", "Adjust Javatar settings"
+      ], [
+        "Help and Support...", "Utilities for Help and Support on Javatar"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "builds"
+      }, {
+        "name": "creates"
+      }, {
+        "name": "operations"
+      }, {
+        "name": "project_settings"
+      }, {
+        "name": "global_settings"
+      }, {
+        "name": "help"
+      }
+    ]
+  },
+  "builds": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Project",
+        "Build all classes in project"
+      ], [
+        "Package",
+        "Build all classes in current package"
+      ], [
+        "Working",
+        "Build all classes in opened tabs"
+      ], [
+        "Current Class",
+        "Build current class"
+      ], [
+        "Run Main Class",
+        "Run class contains main method"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_build",
+        "args": {
+          "build_type": "project"
+        }
+      }, {
+        "command": "javatar_build",
+        "args": {
+          "build_type": "package"
+        }
+      }, {
+        "command": "javatar_build",
+        "args": {
+          "build_type": "working"
+        }
+      }, {
+        "command": "javatar_build",
+        "args": {
+          "build_type": "class"
+        }
+      }, {
+        "command": "javatar_run"
+      }
+    ]
+  },
+  "creates": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Package",
+        "Create a new package"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_create_package"
+      }
+    ]
+  },
+  "operations": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Organize Imports",
+        "Correct class imports in current file"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_organize_imports"
+      }
+    ]
+  },
+  "project_settings": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Set Program Arguments",
+        "Set the arguments to pass on the main execution"
+      ], [
+        "Source Folders...",
+        "Manage source folders"
+      ], [
+        "Dependencies...",
+        "Manage project dependencies"
+      ], [
+        "Java Library Paths...",
+        "Manage Java library paths"
+      ], [
+        "Set Default JDK",
+        "Set default JDK for builds and runs"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "set_program_arguments"
+        }
+      }, {
+        "name": "local_source_folders"
+      }, {
+        "name": "local_dependencies"
+      }, {
+        "name": "local_library_paths"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "set_jdk",
+          "to_global": false
+        }
+      }
+    ]
+  },
+  "global_settings": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Dependencies...",
+        "Manage default dependencies"
+      ], [
+        "Java Library Paths...",
+        "Manage Java library paths"
+      ], [
+        "Set Default JDK",
+        "Set default JDK for builds and runs"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "name": "global_dependencies"
+      }, {
+        "name": "global_library_paths"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "set_jdk",
+          "to_global": true
+        }
+      }
+    ]
+  },
+  "local_source_folders": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Add Source Folder",
+        "Add a source folder to specified as default package"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "project_settings"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_source_folder"
+        }
+      }
+    ]
+  },
+  "local_dependencies": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Add External .jar",
+        "Add dependency .jar file"
+      ], [
+        "Add Class Folder",
+        "Add dependency class folder"
+      ],[
+        "Add Maven Dependency",
+        "Download and add Maven dependency from the central repository"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "project_settings"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_external_jar",
+          "to_global": false
+        }
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_class_folder",
+          "to_global": false
+        }
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_maven_dependency"
+        }
+      }
+    ]
+  },
+  "local_library_paths": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Add Library Path",
+        "Add a library path to be used when run the program"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "project_settings"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_library_path",
+          "to_global": false
+        }
+      }
+    ]
+  },
+  "global_dependencies": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Add External .jar",
+        "Add dependency .jar file"
+      ], [
+        "Add Class Folder",
+        "Add dependency class folder"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "global_settings"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_external_jar",
+          "to_global": true
+        }
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_class_folder",
+          "to_global": true
+        }
+      }
+    ]
+  },
+  "global_library_paths": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Add Library Path",
+        "Add a library path to be used when run the program"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "global_settings"
+      }, {
+        "command": "javatar_project_settings",
+        "args": {
+          "action_type": "add_library_path",
+          "to_global": true
+        }
+      }
+    ]
+  },
+  "dev": {
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Parse Document",
+        "Parse Java grammar on current document (may slow Sublime Text)"
+      ], [
+        "Prettify JSON",
+        "Reformat current document as pretty JSON"
+      ], [
+        "Parser test",
+        "For testing and experimenting new feature"
+      ], [
+        "JSON config view test",
+        "For testing and experimenting new feature"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_utils",
+        "args": {
+          "util_type": "parse"
+        }
+      }, {
+        "command": "javatar_utils",
+        "args": {
+          "util_type": "tojson"
+        }
+      }, {
+        "command": "javatar_utils",
+        "args": {
+          "util_type": "parser_test"
+        }
+      }, {
+        "command": "javatar_utils",
+        "args": {
+          "util_type": "json_test"
+        }
+      }
+    ]
+  },
+  "help": {
+    "selected_index": 2,
+    "items": [
+      [
+        "Back",
+        "Back to previous menu"
+      ], [
+        "Actions History",
+        "Generate a report on Javatar actions history"
+      ], [
+        "Actions History (Custom)",
+        "Generate a report on Javatar actions history using custom selector"
+      ]
+    ],
+    "actions": [
+      {
+        "name": "main"
+      }, {
+        "command": "javatar_action_history",
+        "args": {
+          "selector": ""
+        }
+      }, {
+        "command": "javatar_action_history"
+      }
+    ]
+  }
+}
