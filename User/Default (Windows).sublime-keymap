@@ -10,8 +10,8 @@
 { "keys": ["f1"], "command": "toggle_side_bar" },
 { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
 { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
-{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 4.0 } },
-{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -4.0 } },
+{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 2.0 } },
+{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -2.0 } },
 { "keys": ["ctrl+a"], "command": "select_all" },
 { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
 { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
@@ -45,7 +45,8 @@
 {"keys": ["ctrl+shift+2"],"command": "set_layout","args":{"cols": [0.0, 1.0],"rows": [0.0, 0.5, 1.0],"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]}},
 {"keys": ["ctrl+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } }, 
 {"keys": ["ctrl+shift+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
-
+{"keys": ["ctrl+shift+."], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } },
+  
 // -------macro-------------------------------------------------------------------------------------------------------------  
 // macro, it's the most bitchen editor function !! 
 // for example, you can first save your macro, then map a key to it !! 
@@ -54,5 +55,9 @@
 {"keys": ["alt+w"], "command": "run_macro" }, 
 {"keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 // -------------------------------------------------------------------------------------------------------------------------
-  
+
+// a key --> a command --> a function 
+// just like emacs lisp: all keys are commands, all commands are functions.
+// so, define any your self-like key/command/function is possible.
+
 ]
