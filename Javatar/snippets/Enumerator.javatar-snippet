@@ -1,9 +1,0 @@
-title: Enumerator
-description: Create a new empty enumerator
-<$>
-%package%
-
-%visibility%enum %class%%inheritance% {
-    ${1}
-}
-<$>
