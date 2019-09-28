@@ -154,7 +154,7 @@
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.size": 12
+        "font.size": 16
     },
     // Find panel - text button label hover
     {
@@ -674,7 +674,7 @@
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.size": 12
+        "font.size": 14
     },
     // Status bar - background
     {
@@ -805,7 +805,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
         "font.italic": false,
-        "font.size": 12
+        "font.size": 20
     },
     // Tab - label selected
     {
@@ -967,8 +967,8 @@
     {
         "class": "sidebar_heading",
         "color": [215, 218, 224],
-        "font.size": 12,
-        "font.bold": false,
+        "font.size": 15,
+        "font.bold": true,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
@@ -1071,7 +1071,7 @@
         "class": "sidebar_label",
         "color": [157, 165, 180],
         "font.bold": false,
-        "font.size": 12,
+        "font.size": 20,
         "font.italic": false,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
