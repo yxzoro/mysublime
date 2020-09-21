@@ -31,8 +31,8 @@
 // plugin's another goto definition is "alt+."  
 { "keys": ["alt+,"], "command": "goto_definition" },
 
-{ "keys": ["alt+-"], "command": "jump_back" },
-{ "keys": ["alt+="], "command": "jump_forward" },
+{ "keys": ["alt+left"], "command": "jump_back" },
+{ "keys": ["alt+right"], "command": "jump_forward" },
 { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
 { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
 { "keys": ["ctrl+backspace"], "command": "delete_word", "args": { "forward": false } },
