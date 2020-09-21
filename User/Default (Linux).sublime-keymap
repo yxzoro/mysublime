@@ -1,5 +1,5 @@
 [
-{ "keys": ["ctrl+q"], "command": "ace_jump_char" },
+{ "keys": ["alt+q"], "command": "ace_jump_char" },
 { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },    
 { "keys": ["ctrl+shift+n"], "command": "new_window" },
 { "keys": ["ctrl+o"], "command": "prompt_open_file" },
@@ -25,7 +25,6 @@
 { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 
 // "alt+," in sublime can goto definition of any code, so bitchen !!
 // plugin's another goto definition is "alt+."  
@@ -46,13 +45,11 @@
 {"keys": ["ctrl+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } }, 
 {"keys": ["ctrl+shift+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
 
-// -------macro-------------------------------------------------------------------------------------------------------------  
-// macro, it's the most bitchen editor function !! 
-// for example, you can first save your macro, then map a key to it !! 
+// macro: it's the most bitchen editor function !! 
+// first save your macro, then map a key to it !! 
 // it's just like you can create all kinds of your own editor functions immediately...so cool !!  
-{"keys": ["alt+q"], "command": "toggle_record_macro" },
-{"keys": ["alt+w"], "command": "run_macro" }, 
+//{"keys": ["alt+q"], "command": "toggle_record_macro" },
+//{"keys": ["alt+w"], "command": "run_macro" }, 
 {"keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
-// -------------------------------------------------------------------------------------------------------------------------
   
 ]
