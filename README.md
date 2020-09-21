@@ -8,3 +8,6 @@
 sublime licence:
 http://appnee.com/sublime-text-3-universal-license-keys-collection-for-win-mac-linux/
 
+> sublime-text-3 <=3207 has a memory-leak bug, which has been fixed in >=3211.    
+
+
