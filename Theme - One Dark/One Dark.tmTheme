@@ -41,7 +41,7 @@
 				<string>#282c34</string>
 				<key>gutterForeground</key>
 				<string>#636d8388</string>
-                <!--
+
 				<key>selection</key>
 				<string>#6495ED</string>
 				<key>selectionForeground</key>
@@ -50,13 +50,14 @@
 				<string>#6495ED</string>
 				<key>inactiveSelection</key>
 				<string>#6495ED</string>
-                -->
+                <!--
 				<key>selection</key>
 				<string>#bbccf51b</string>
 				<key>selectionBorder</key>
 				<string>#bbccf51b</string>
 				<key>inactiveSelection</key>
 				<string>#bbccf51b</string>
+                -->
 
 				<key>guide</key>
 				<string>#464c55</string>
