@@ -1,4 +1,9 @@
 {
-	"target": "gs9o_build",
-	"selector": "source.go"
+    "cmd": ["go", "run", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.go"
 }
+// {
+// 	"target": "gs9o_build",
+// 	"selector": "source.go"
+// }
